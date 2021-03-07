@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.header img{
+    width: 10%;
+    height: auto;
+}
+.process ul li{
+    list-style-type: none; 
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.selected{
+    background:gray;
+}
+.main{
+    text-align: center;
+    height:　auto;
+    max-width: auto;
+}
+.main dt{
+    width: 60%;
+}
+.main dd{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+.main form dd{
+    color: red;
+}
+.main form label{
+    color: black;
+}
+input{
+    border: 2px solid black;
+}
+select{
+    border: 2px solid black;
+}
+form{
+    display: inline-block;
+}
+.button1{
+    margin: 20px 0;
+    font-size     : 10pt;        /* 文字サイズ */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 17px 80px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    border        : 1px solid black;    /* 枠の指定 */
+}
+.button2{
+    font-size     : 10pt;        /* 文字サイズ */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 17px 80px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    border        : 1px solid black;    /* 枠の指定 */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.footer{
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 10px;
+}

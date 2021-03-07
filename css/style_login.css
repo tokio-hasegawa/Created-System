@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto ;
+    height: auto;
+    text-align: center;
+    width: 500px;    
+}
+body p{
+    text-align: start;
+    margin-left: 20px;
+}
+.header{
+    margin-top: 50px;
+    text-align: center;
+    height: auto;
+    text-align: center;
+    width: 500px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.header img{
+    height: 100px;
+    width: auto;
+}
+.main{
+    border: 1px solid black;
+}
+.account p{
+    display: inline-block;
+    font-weight: bold;
+}
+.main dt{
+    text-align: center;
+    margin-right: 50px;
+}
+.main dt p{
+    text-align: center;
+    margin-left: 30px;
+}
+.error p{
+    color: red;
+    text-align: center;
+}
+.button1{
+    font-size     : 12pt;        /* 文字サイズ */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 17px 80px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    border        : 1px solid black;    /* 枠の指定 */
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    border: 1px solid black;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+}

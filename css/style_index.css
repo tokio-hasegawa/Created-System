@@ -1,0 +1,136 @@
+.wrapper{
+    margin-bottom: 5px;
+}
+header img{
+    width: 5%;
+    height: 5%;
+}
+.logo ul{
+    height: auto;
+    margin-top: -7px;
+    width: 100%;
+    float: left;
+    background-color: black;
+    
+}
+.logo ul li{
+    margin-left: -15px;
+    float: left;
+    padding-right: 50px;
+    color: white;
+    list-style: none;
+    opacity: 0.5;
+    line-height: 30px;
+    
+}
+.logo ul li a{
+    color: white;
+}
+main{
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-bottom: 30px;
+}
+main h1{
+    padding-left: 5px;
+    border-left: 4px solid black;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+.date{
+    font-size: 10px;
+    padding: 10px 0;
+    color: gray;
+}
+img.picture{
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
+.desc{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    line-height: 40px;
+}
+#article p{
+    font-size: 20px;
+    padding-left: 7px;
+    margin: 0em;
+}
+.box{
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    text-align: center;
+}
+.box img{
+    width: 80%;
+    margin:20px 10px -10px 10px;
+}
+.double{
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    text-align: center;
+}
+.double img{
+    width: 80%;
+    margin:20px 10px -10px 10px;
+}
+
+
+sub{
+    float: right;
+    width: 30%;
+}
+.famous h2{
+    margin-left: 10px;
+    padding-top: 27px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+.famous ul{
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+}
+.recog h2{
+    margin-left: 10px;
+    padding-top: 27px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+.recog ul{
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+}
+.categ h2{
+    margin-left: 10px;
+    padding-top: 27px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+.categ ul{
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+footer{
+    clear: both;
+    bottom: 0;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    line-height: 40px;
+}

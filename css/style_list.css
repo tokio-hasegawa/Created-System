@@ -1,0 +1,38 @@
+html,body,#main,#container{
+    width:100%;
+}
+
+body{
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    width: auto;
+    border-bottom: 1px solid black;
+}
+.header img{
+    width: 10%;
+}
+.account p{
+    font-weight: bold;
+    margin-left: 100px;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+form{
+    display: inline-block;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+}
+.search{
+    margin-left: 100px;
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #333333;
+}

@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.header img{
+    width: 10%;
+    height: auto;
+}
+.process ul li{
+    list-style-type: none; 
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.selected{
+    background:gray;
+}
+
+.main{
+    height:　auto;
+    width: auto;
+}
+.main dt{
+    margin-left: 80px;
+}
+.main dd{
+    text-align: center;
+}
+.main form dd{
+    color: red;
+}
+.main form label{
+    color: black;
+}
+input{
+    border: 2px solid black;
+}
+select{
+    border: 2px solid black;
+}
+.submit{
+    text-align: center;
+}
+.button1{
+    font-size     : 12pt;        /* 文字サイズ */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 17px 80px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    border        : 1px solid black;    /* 枠の指定 */
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 10px;
+}
